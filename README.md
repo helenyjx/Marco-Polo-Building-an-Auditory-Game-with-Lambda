@@ -14,13 +14,20 @@ One person is selected as "it". Using only hearing, that player searches for and
 * `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 * `source "$HOME/.cargo/env"`
 
-3. Create new project:
+3. Install lambda:
+* `pip install cargo-lambda`
+
+4. Create new project:
 *  `cargo new src` (src is the project name)
 * `cargo run`
 
 ## Check format and test errors:
 1. Format code: `make format`
+
 2. Test code: `make lint`
+
+eg: check errors and fix it:
+<img width="877" alt="Screen Shot 2023-02-08 at 3 21 33 PM" src="https://user-images.githubusercontent.com/112274822/217644693-b8c48be0-3116-43c6-ba2d-3a032f2a10de.png">
 
 ## Cargo lambda
 Within a Rust project that includes a Cargo.toml file, run the cargo lambda build command to natively compile your Lambda functions in the project. 
