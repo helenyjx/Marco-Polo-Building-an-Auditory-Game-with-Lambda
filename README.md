@@ -1,6 +1,6 @@
 # Jiaxin-week4-mini-repo
 
-This demo is a simple Marco Polo game based on Rust. 
+This demo is about building a simple Marco Polo game based on Rust. 
 
 ## Game Rule:
 One person is selected as "it". Using only hearing, that player searches for and tags any other player they can find while keeping their eyes closed. The other players must all shout "Polo" in response to the "it" player's shout of "Marco," which he or she will use to try to locate them. When a player is tagged, that player takes on the role of "it."
